@@ -28,10 +28,12 @@
 
 | 类别 | 提示语 (Prompt) | 生成结果 (Output) | 来源 |
 | :--- | :--- | :--- | :--- |
-| **手办模型** | `turn this photo into a character figure. Behind it, place a box with the character’s image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. Make the PVC material look clear, and set the scene indoors if possible.` | ![alt text](images/image-15.png)![汽车模型](![alt text](images/image-14.png)) | [请在此处插入来源] |
-| **产品渲染** | `A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.` | ![alt text](images/image-16.png) ![alt text](images/image-17.png) | [请在此处插入来源] |
-| **虚实结合** | `what does the red arrow see` | ![alt text](images/image-18.png) ![alt text](images/image-19.png)| [请在此处插入来源] |
-| **动作参考** | `make it real` | ![alt text](images/image-20.png) ![alt text](images/image-21.png)| [请在此处插入来源] |
+| **手办模型** | `turn this photo into a character figure. Behind it, place a box with the character’s image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. Make the PVC material look clear, and set the scene indoors if possible.` | ![alt text](images/image-15.png)![汽车模型](![alt text](images/image-14.png)) | [西里森森
+] |
+| **产品渲染** | `A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.` | ![alt text](images/image-16.png) ![alt text](images/image-17.png) | [ravis Davids] |
+| **虚实结合** | `what does the red arrow see` | ![alt text](images/image-18.png) ![alt text](images/image-19.png)| [Eyisha Zyer
+@eyishazyer] |
+| **动作参考** | `make it real` | ![alt text](images/image-20.png) ![alt text](images/image-21.png)| [nic] |
 
 
 *(更多精彩案例请查看 [Showcase 目录](./showcase/))。*
@@ -41,33 +43,33 @@
 **1. 场景融合 (Combine photos into new scenes)**
    - **说明**: 将多张独立的照片无缝融合成一个全新的、富有想象力的场景。例如，你可以把朋友的照片和一张月球表面的照片结合，生成一张“朋友在月球漫步”的图片，模型会自动处理光照、阴影和透视，让结果看起来天衣无缝。
    ![alt text](images/image-1.png) ![alt text](images/image-2.png)
-> 来源: [请在此处插入来源]
+> 来源: [Eyisha Zyer]
 
 **2. 描述式修图 (Edit image by describing to it)**
    - **说明**: 用自然语言直接“指挥”模型修改图片。不再需要复杂的P图软件，只需要告诉它“给这个女孩戴上一副墨镜”或者“把天空换成梵高星空的风格”，模型就能理解并执行你的指令。
    ![alt text](images/image-3.png)![alt text](images/image-4.png)
-> 来源: [请在此处插入来源]
+> 来源: [Eyisha Zyer]
 
 **3. AI 视频流 (Nano Banana + Runway Act 2)**
    - **说明**: 这是一个强大的工作流。首先使用 Nano Banana 生成一张高质量的静态图片（例如，一个未来城市的关键帧），然后将其导入 Runway Act 2 等视频生成工具，让这张静态图片动起来，极大地简化了动画和视频的创作流程。
    ![alt text](images/image-5.png)
-> 来源: [请在此处插入来源]
+> 来源: [Techguyver]
 
 
 **4. 广告概念帧 (Start frames for Ads)**
    - **说明**: 在广告制作初期，快速生成大量不同风格、不同创意的“起始帧”或“概念图”。这能帮助创意团队在几分钟内将想法可视化，进行提案和筛选，极大地提升了效率。
    ![alt text](images/image-6.png)
-> 来源: [请在此处插入来源]
+> 来源: [Mike Futia]
 
 **5. 风格迁移 (Move styles from one image to another)**
    - **说明**: 将一张图片的艺术风格（如水彩、油画、赛博朋克）应用到另一张图片的内容上。你可以轻松地把一张普通的街景照片，变成一幅充满艺术感的杰作。
    ![alt text](images/image-7.png) ![alt text](images/image-8.png)
-> 来源: [请在此处插入来源]
+> 来源: [Eyisha Zyer]
 
 **6. 图像内文字修改 (Change text)**
    - **说明**: 智能识别并修改图片中的文字内容。比如，你可以轻松地将一张海报上的“夏季大促”改成“秋季上新”，模型会自动匹配原有的字体、颜色和光照效果。
    ![alt text](images-9.png)
-> 来源: [请在此处插入来源]
+> 来源: [Eyisha Zyer]
 
 **7. 老照片修复与增强 (Restore or fix old and blurry photos)**
    - **说明**: 修复有划痕、模糊不清或分辨率低的老旧照片。模型能够智能地“脑补”出缺失的细节，提升清晰度，甚至为黑白照片上色，让珍贵的回忆重焕新生。
@@ -77,11 +79,11 @@
 **8. 智能背景替换 (Change image background)**
    - **说明**: 轻松更换任何图片的主体背景。无论是为证件照换底色，还是为产品图生成多样化的展示环境，都可以一键完成，并且边缘处理得非常自然。
 ![alt text](images/image-11.png)
-> 来源: [请在此处插入来源]
+> 来源: [Marouane Lamharzi Alaoui]
 **9. 独立动漫创作革命 (A new era of indie anime animators)**
    - **说明**: 为独立动画和漫画创作者赋能。通过生成角色设定、场景原画、关键帧动画等，大大降低了创作门槛和成本，让一个人或一个小团队也能创作出高质量的动漫作品。
 ![alt text](images/image-12.png)
-> 来源: [请在此处插入来源]
+> 来源: [tapehead.lab]
 **10. 风格一致性创作 (Create new images in the same style from a reference photo)**
     - **说明**: 提供一张参考图片，让模型“学习”它的独特风格（包括画风、色调、笔触等），然后用这种风格生成全新的、不同内容的图片。这对于创作系列插画、游戏资产或保持品牌视觉一致性至关重要。
     ![alt text](images/image-13.png)
