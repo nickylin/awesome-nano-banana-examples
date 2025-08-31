@@ -36,45 +36,6 @@
 
 *(更多精彩案例请查看 [Showcase 目录](./showcase/))。*
 
-## 🛠️ 如何使用 (How to Use)
-
-*提供清晰、可直接复制粘贴的代码片段。*
-
-### API 调用示例
-
-假设使用官方 Python 库：
-
-```python
-import gemini_nano_banana as gnb
-
-# 配置你的 API 密钥
-gnb.api_key = "YOUR_API_KEY"
-
-# 定义你的想法
-prompt = "一只发光的机械水母，在赛博朋克城市的雨夜上空游动，霓虹灯光反射，电影感，超高细节"
-
-# 生成图片
-try:
-    image_url = gnb.generate(
-        prompt=prompt,
-        style="cinematic",
-        resolution="1024x1024"
-    )
-    print(f"图片已生成: {image_url}")
-except Exception as e:
-    print(f"发生错误: {e}")
-```
-
-### 命令行工具
-
-```bash
-# 安装工具
-pip install gnb-cli
-
-# 生成图片
-gnb-cli generate "一只戴着飞行员护目镜的可爱柯基犬，迪士尼风格" --style disney --output corgi.png
-```
-
 ## 💡 应用场景 (Application Scenarios)
 
 **1. 场景融合 (Combine photos into new scenes)**
@@ -115,6 +76,107 @@ gnb-cli generate "一只戴着飞行员护目镜的可爱柯基犬，迪士尼�
 **10. 风格一致性创作 (Create new images in the same style from a reference photo)**
     - **说明**: 提供一张参考图片，让模型“学习”它的独特风格（包括画风、色调、笔触等），然后用这种风格生成全新的、不同内容的图片。这对于创作系列插画、游戏资产或保持品牌视觉一致性至关重要。
     ![alt text](image-13.png)
+
+## 🛠️ 如何使用 (How to Use)
+
+有两种主要方法可以体验 Gemini-Nano-Banana 的强大功能：
+
+### 1. Gemini AI Studio (Chatbox 聊天框)
+
+这是最简单快捷的方式，无需任何编程知识。
+
+- **入口**: 访问 [Gemini AI Studio](https://aistudio.google.com/)
+- **操作**:
+  1. 在聊天框中直接输入你的图片生成指令 (Prompt)。
+  2. 你也可以上传一张图片，然后输入指令让模型对图片进行编辑或变换。
+  3. 点击生成，即可在界面右侧看到结果。
+
+![alt text](image-22.png)
+
+### 2. Google API 接入 (代码示例)
+
+如果你是开发者，希望将模型能力集成到自己的应用中，可以使用 API。
+
+# To run this code you need to install the following dependencies:
+# pip install google-genai
+
+import base64
+import mimetypes
+import os
+from google import genai
+from google.genai import types
+
+
+def save_binary_file(file_name, data):
+    f = open(file_name, "wb")
+    f.write(data)
+    f.close()
+    print(f"File saved to to: {file_name}")
+
+
+def generate():
+    client = genai.Client(
+        api_key=os.environ.get("GEMINI_API_KEY"),
+    )
+
+    model = "gemini-2.5-flash-image-preview"
+    contents = [
+        types.Content(
+            role="user",
+            parts=[
+                types.Part.from_text(text="""Generate an image of a banana wearing a costume."""),
+            ],
+        ),
+        types.Content(
+            role="model",
+            parts=[
+                types.Part.from_text(text="""Okay, here is a banana wearing a costume for you: """),
+                types.Part.from_bytes(
+                    mime_type="image/png",
+                    data=base64.b64decode(
+                        """base64image"""
+                    ),
+                ),
+            ],
+        ),
+        types.Content(
+            role="user",
+            parts=[
+                types.Part.from_text(text="""INSERT_INPUT_HERE"""),
+            ],
+        ),
+    ]
+    generate_content_config = types.GenerateContentConfig(
+        response_modalities=[
+            "IMAGE",
+            "TEXT",
+        ],
+    )
+
+    file_index = 0
+    for chunk in client.models.generate_content_stream(
+        model=model,
+        contents=contents,
+        config=generate_content_config,
+    ):
+        if (
+            chunk.candidates is None
+            or chunk.candidates[0].content is None
+            or chunk.candidates[0].content.parts is None
+        ):
+            continue
+        if chunk.candidates[0].content.parts[0].inline_data and chunk.candidates[0].content.parts[0].inline_data.data:
+            file_name = f"ENTER_FILE_NAME_{file_index}"
+            file_index += 1
+            inline_data = chunk.candidates[0].content.parts[0].inline_data
+            data_buffer = inline_data.data
+            file_extension = mimetypes.guess_extension(inline_data.mime_type)
+            save_binary_file(f"{file_name}{file_extension}", data_buffer)
+        else:
+            print(chunk.text)
+
+if __name__ == "__main__":
+    generate()
 
 ## 📚 资源 & 工具
 
