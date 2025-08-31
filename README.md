@@ -32,7 +32,7 @@
 | **产品渲染** | `A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.` | ![alt text](images/image-16.png) ![alt text](images/image-17.png) | [ravis Davids] |
 | **虚实结合** | `what does the red arrow see` | ![alt text](images/image-18.png) ![alt text](images/image-19.png)| [Eyisha Zyer] |
 | **动作参考** | `make it real` | ![alt text](images/image-20.png) ![alt text](images/image-21.png)| [nic] |
-| **文字舞蹈** | `结合汉字姿势参考，输出对应的姿势舞蹈` | ![alt text](image.png) ![alt text](image-1.png)| [歸藏] |
+| **文字舞蹈** | `Generate a dance routine based on Chinese character postures, using them as a reference.` | ![alt text](image.png) ![alt text](image-1.png)| [歸藏] |
 
 
 *(更多精彩案例请查看 [Showcase 目录](./showcase/))。*
