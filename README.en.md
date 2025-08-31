@@ -3,13 +3,13 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 A curated list of awesome applications, best practices, and resources for the Gemini-Nano-Banana model, driven by the community.
-
+![alt text](images/image.png)
 English | [中文](./README.md)
 
 ---
 
 `gemini-nano-banana` is the latest high-efficiency image model from Google, excelling in generation quality, speed, and understanding complex instructions. This project aims to collect and showcase its practical use cases to inspire more creativity.
-![alt text](images/image.png)
+
 
 ## Table of Contents
 

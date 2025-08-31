@@ -3,13 +3,14 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 一个由社区驱动的 Gemini-Nano-Banana 模型应用场景、最佳实践和资源分享的精选列表。
+![alt text](images/image.png)
 
 [English](./README.en.md) | 中文
 
 ---
 
 `gemini-nano-banana` 是谷歌最新推出的高效图片模型，它在生成质量、速度和理解复杂指令方面表现出色。本项目旨在汇集和展示其实际应用案例，激发更多创意。
-![alt text](images/image.png)
+
 
 ## 目录
 
