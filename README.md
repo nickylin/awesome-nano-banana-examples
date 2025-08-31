@@ -28,8 +28,7 @@
 
 | 类别 | 提示语 (Prompt) | 生成结果 (Output) | 来源 |
 | :--- | :--- | :--- | :--- |
-| **手办模型** | `turn this photo into a character figure. Behind it, place a box with the character’s image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. Make the PVC material look clear, and set the scene indoors if possible.` | ![alt text](images/image-15.png)![汽车模型](![alt text](images/image-14.png)) | [西里森森
-] |
+| **手办模型** | `turn this photo into a character figure. Behind it, place a box with the character’s image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. Make the PVC material look clear, and set the scene indoors if possible.` | ![alt text](images/image-15.png)![汽车模型](![alt text](images/image-14.png)) | [西里森森] |
 | **产品渲染** | `A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.` | ![alt text](images/image-16.png) ![alt text](images/image-17.png) | [ravis Davids] |
 | **虚实结合** | `what does the red arrow see` | ![alt text](images/image-18.png) ![alt text](images/image-19.png)| [Eyisha Zyer] |
 | **动作参考** | `make it real` | ![alt text](images/image-20.png) ![alt text](images/image-21.png)| [nic] |
