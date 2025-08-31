@@ -99,7 +99,7 @@
 
 # To run this code you need to install the following dependencies:
 # pip install google-genai
-
+```
 import base64
 import mimetypes
 import os
@@ -177,6 +177,7 @@ def generate():
 
 if __name__ == "__main__":
     generate()
+```
 
 ## 📚 资源 & 工具
 
