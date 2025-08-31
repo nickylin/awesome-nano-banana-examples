@@ -31,8 +31,7 @@
 | **手办模型** | `turn this photo into a character figure. Behind it, place a box with the character’s image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. Make the PVC material look clear, and set the scene indoors if possible.` | ![alt text](images/image-15.png)![汽车模型](![alt text](images/image-14.png)) | [西里森森
 ] |
 | **产品渲染** | `A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.` | ![alt text](images/image-16.png) ![alt text](images/image-17.png) | [ravis Davids] |
-| **虚实结合** | `what does the red arrow see` | ![alt text](images/image-18.png) ![alt text](images/image-19.png)| [Eyisha Zyer
-@eyishazyer] |
+| **虚实结合** | `what does the red arrow see` | ![alt text](images/image-18.png) ![alt text](images/image-19.png)| [Eyisha Zyer] |
 | **动作参考** | `make it real` | ![alt text](images/image-20.png) ![alt text](images/image-21.png)| [nic] |
 
 
@@ -80,10 +79,12 @@
    - **说明**: 轻松更换任何图片的主体背景。无论是为证件照换底色，还是为产品图生成多样化的展示环境，都可以一键完成，并且边缘处理得非常自然。
 ![alt text](images/image-11.png)
 > 来源: [Marouane Lamharzi Alaoui]
+
 **9. 独立动漫创作革命 (A new era of indie anime animators)**
    - **说明**: 为独立动画和漫画创作者赋能。通过生成角色设定、场景原画、关键帧动画等，大大降低了创作门槛和成本，让一个人或一个小团队也能创作出高质量的动漫作品。
 ![alt text](images/image-12.png)
 > 来源: [tapehead.lab]
+
 **10. 风格一致性创作 (Create new images in the same style from a reference photo)**
     - **说明**: 提供一张参考图片，让模型“学习”它的独特风格（包括画风、色调、笔触等），然后用这种风格生成全新的、不同内容的图片。这对于创作系列插画、游戏资产或保持品牌视觉一致性至关重要。
     ![alt text](images/image-13.png)
@@ -108,6 +109,7 @@
 ### 2. Google API 接入 (代码示例)
 
 如果你是开发者，希望将模型能力集成到自己的应用中，可以使用 API。
+https://github.com/nickylin/how-to-use-gemini-nano-banana
 
 # To run this code you need to install the following dependencies:
 # pip install google-genai
@@ -195,7 +197,8 @@ if __name__ == "__main__":
 
 *链接到所有相关的外部资源。*
 
-- **官方文档**: [Gemini Nano Banana API Documentation](https://example.com/docs)
+- **官方文档**: [Gemini Nano Banana API Documentation]()
+- **Demo**: [how-to-use-gemini-nano-banana](https://github.com/nickylin/how-to-use-gemini-nano-banana)
 
 ## 🤝 如何贡献 (How to Contribute)
 
