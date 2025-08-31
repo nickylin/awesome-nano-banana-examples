@@ -40,11 +40,13 @@
 
 **1. 场景融合 (Combine photos into new scenes)**
    - **说明**: 将多张独立的照片无缝融合成一个全新的、富有想象力的场景。例如，你可以把朋友的照片和一张月球表面的照片结合，生成一张“朋友在月球漫步”的图片，模型会自动处理光照、阴影和透视，让结果看起来天衣无缝。
+
    ![alt text](images/image-1.png) ![alt text](images/image-2.png)
 > 来源: [Eyisha Zyer]
 
 **2. 描述式修图 (Edit image by describing to it)**
    - **说明**: 用自然语言直接“指挥”模型修改图片。不再需要复杂的P图软件，只需要告诉它“给这个女孩戴上一副墨镜”或者“把天空换成梵高星空的风格”，模型就能理解并执行你的指令。
+
    ![alt text](images/image-3.png)![alt text](images/image-4.png)
 > 来源: [Eyisha Zyer]
 
@@ -61,6 +63,7 @@
 
 **5. 风格迁移 (Move styles from one image to another)**
    - **说明**: 将一张图片的艺术风格（如水彩、油画、赛博朋克）应用到另一张图片的内容上。你可以轻松地把一张普通的街景照片，变成一幅充满艺术感的杰作。
+   
    ![alt text](images/image-7.png) ![alt text](images/image-8.png)
 > 来源: [Eyisha Zyer]
 
