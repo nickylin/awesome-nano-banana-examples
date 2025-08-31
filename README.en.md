@@ -28,10 +28,11 @@ English | [中文](./README.md)
 
 | Category | Prompt | Output | Source |
 | :--- | :--- | :--- | :--- |
-| **Character Figure** | `turn this photo into a character figure. Behind it, place a box with the character’s image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. Make the PVC material look clear, and set the scene indoors if possible.` | ![alt text](images/image-15.png)![Car Model](![alt text](images/image-14.png)) | [Xilisen] |
+| **Character Figure** | `turn this photo into a character figure. Behind it, place a box with the character’s image printed on it, and a computer showing the Blender modeling process on its screen. In front of the box, add a round plastic base with the character figure standing on it. Make the PVC material look clear, and set the scene indoors if possible.` | ![alt text](images/image-15.png) ![alt text](images/image-14.png) | [Xilisen] |
 | **Product Rendering** | `A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.` | ![alt text](images/image-16.png) ![alt text](images/image-17.png) | [ravis Davids] |
 | **Mixed Reality** | `what does the red arrow see` | ![alt text](images/image-18.png) ![alt text](images/image-19.png)| [Eyisha Zyer] |
 | **Action Reference** | `make it real` | ![alt text](images/image-20.png) ![alt text](images/image-21.png)| [nic] |
+| **Text Dance** | `Generate a dance routine based on Chinese character postures, using them as a reference.` | ![alt text](images/image.png) ![alt text](images/image-1.png)| [Guicang] |
 
 
 *(For more amazing examples, please check the [Showcase Directory](./showcase/)).*
@@ -58,7 +59,7 @@ English | [中文](./README.md)
 
 **4. Start frames for Ads**
    - **Description**: Quickly generate a large number of "starting frames" or "concept images" in different styles and with different creative ideas in the early stages of ad production. This helps creative teams visualize ideas in minutes for proposals and selection, greatly improving efficiency.
-   ![alt text](images/image-6.png)
+   ![alt text](images//image-6.png)
 > Source: [Mike Futia]
 
 **5. Move styles from one image to another**
@@ -69,13 +70,13 @@ English | [中文](./README.md)
 
 **6. Change text**
    - **Description**: Intelligently recognize and modify the text content in an image. For example, you can easily change "Summer Sale" on a poster to "Autumn New Arrivals," and the model will automatically match the original font, color, and lighting effects.
-   ![alt text](images-9.png)
+   ![alt text](images/image-9.png)
 > Source: [Eyisha Zyer]
 
 **7. Restore or fix old and blurry photos**
    - **Description**: Repair old photos that are scratched, blurry, or have low resolution. The model can intelligently "imagine" the missing details, improve clarity, and even colorize black and white photos, bringing precious memories back to life.
    ![alt text](images/image-10.png)
-> Source: [Please insert source here]
+> Source: [Source needed]
 
 **8. Change image background**
    - **Description**: Easily change the background of any image's subject. Whether it's changing the background color for an ID photo or generating diverse display environments for product images, it can be done with one click, and the edges are handled very naturally.
@@ -90,7 +91,7 @@ English | [中文](./README.md)
 **10. Create new images in the same style from a reference photo**
     - **Description**: Provide a reference image and let the model "learn" its unique style (including art style, color tone, brushstrokes, etc.), then use this style to generate brand new images with different content. This is crucial for creating series of illustrations, game assets, or maintaining brand visual consistency.
     ![alt text](images/image-13.png)
-> Source: [Please insert source here]
+> Source: [Source needed]
 
 ## 🛠️ How to Use
 
